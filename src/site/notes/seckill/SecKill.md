@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":false,"permalink":"/seckill/sec-kill/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/seckill/sec-kill/"}
 ---
 
 ## 数据库表的设计
