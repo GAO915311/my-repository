@@ -6031,11 +6031,11 @@ body {
   }
   /* Code blocks */
   pre[class*="language-"] {
-    overflow: hidden;
+    overflow: auto;
   }
   code[class*="language-"] {
     display: block;
-    padding: 1em;
+    padding: 0em;
     overflow: hidden;
   }
   /* Inline code */
