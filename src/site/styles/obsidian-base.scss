@@ -6036,7 +6036,7 @@ body {
   code[class*="language-"] {
     display: block;
     padding: 1em;
-    overflow: auto;
+    overflow: hidden;
   }
   /* Inline code */
   :not(pre) > code[class*="language-"] {
