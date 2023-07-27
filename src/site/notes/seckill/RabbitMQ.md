@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/seckill/rabbit-mq/","tags":["gardenEntry"],"created":"","updated":""}
+{"dg-publish":true,"dg-home":true,"permalink":"/seckill/rabbit-mq/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"","updated":""}
 ---
 
  RabbitMQ 
