@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/seckill/we/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/seckill/we/","dgPassFrontmatter":true,"noteIcon":"","created":"","updated":""}
 ---
 
 我们一
