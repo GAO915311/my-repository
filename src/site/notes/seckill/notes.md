@@ -1,0 +1,30 @@
+---
+{"dg-publish":true,"permalink":"/seckill/notes/","created":"","updated":""}
+---
+
+## 数据库表的新的设计
+
+```SQL
+CREATE TABLE `seckill_user`(
+    `id` BIGINT(20) NOT NULL COMMENT '用户ID，设为主键',
+    `nickname` VARCHAR(255) NOT NULL DEFAULT '',
+    `password` VARCHAR(32) NOT NULL DEFAULT 'MD5明文+固定slat',
+    `slat` VARCHAR(10) NOT NULL DEFAULT '',
+    `head` VARCHAR(128) NOT NULL DEFAULT '头像',
+    `register_date` DATETIME DEFAULT NULL COMMENT '注册时间',
+    `last_login_date` DATETIME DEFAULT NULL COMMENT '最后一次登录时间',
+    `login_count` INT(11) DEFAULT '0' COMMENT '登录次数',
+    PRIMARY KEY (`id`)
+) ENGINE=INNODB DEFAULT CHARSET=utf8mb4;
+```
+
+### 密码的设计方案
+
+登录的传统方式：
+
+客户端 password 明文加密之后再传递
+
+所有的代码全都是开源的。就是这样的
+
+滑动窗口的条件：hello world hello world 
+滑动窗口的条件：hello world
