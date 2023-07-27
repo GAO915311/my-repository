@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/seckill/notes/","created":"","updated":""}
+{"dg-publish":true,"permalink":"/seckill/notes/","dgPassFrontmatter":true,"noteIcon":"","created":"","updated":""}
 ---
 
 ## 数据库表的新的设计
@@ -28,3 +28,11 @@ CREATE TABLE `seckill_user`(
 
 滑动窗口的条件：hello world hello world 
 滑动窗口的条件：hello world
+
+现在的条件就是这样的。没有什么
+
+```Java
+public static void main(String[] args) {
+	System.out.println("hello world");
+}
+```
