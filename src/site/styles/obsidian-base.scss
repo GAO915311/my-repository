@@ -6031,12 +6031,12 @@ body {
   }
   /* Code blocks */
   pre[class*="language-"] {
-    overflow: auto;
+    overflow: hidden;
   }
   code[class*="language-"] {
     display: block;
     padding: 1em;
-    overflow: hidden;
+    overflow: auto;
   }
   /* Inline code */
   :not(pre) > code[class*="language-"] {
