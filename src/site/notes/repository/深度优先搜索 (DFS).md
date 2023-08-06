@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/repository/dfs/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"","updated":""}
+{"dg-publish":true,"permalink":"/repository/dfs/","dgPassFrontmatter":true,"noteIcon":"","created":"","updated":""}
 ---
 
 # DFS
